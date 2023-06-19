@@ -14,14 +14,14 @@
 </Teleport>
 </template>
 
-<script>
-defineEmits(["close-modal"])
+<script setup>
+defineEmits(["close-modal"]);
 defineProps({
     modalActive: {
         type: Boolean,
         default: false
     }
-})
+});
 </script>
 
 <style scoped>

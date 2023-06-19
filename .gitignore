@@ -16,6 +16,9 @@ coverage
 
 /cypress/videos/
 /cypress/screenshots/
+# dotenv environment variables file
+.env
+.env.test
 
 # Editor directories and files
 .vscode/*

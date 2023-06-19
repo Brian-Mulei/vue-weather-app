@@ -5,7 +5,7 @@
             <RouterLink :to="{ name: 'home' }">
                 <div class="flex items-center gap-3">
                     <i class="fa-solid fa-sun text-2xl"></i>
-                    <p class="text-2xl">The Local Weather</p>
+                    <p class="text-2xl">The Weather</p>
                 </div>
             </RouterLink>
 
@@ -33,19 +33,19 @@
               Select a city within the results, this will take
               you to the current weather for your selection.
             </li>
-            <li>
+            <!--li>
               Track the city by clicking on the "+" icon in the
               top right. This will save the city to view at a
               later time on the home page.
-            </li>
+            </li-->
           </ol>
 
-          <h2 class="text-2xl">Removing a city</h2>
+          <!--h2 class="text-2xl">Removing a city</h2>
           <p>
             If you no longer wish to track a city, simply select
             the city within the home page. At the bottom of the
             page, there will be am option to delete the city.
-          </p>
+          </p-->
         </div>           
      </Modal>
         </nav>
