@@ -34,7 +34,7 @@ import { useRouter } from 'vue-router';
 
 const router =useRouter();
 
-const APIKEY = "pk.eyJ1IjoibXVrc2hpIiwiYSI6ImNsajJnZnh0eDFibGMzZnM5OXN2amxkejgifQ.1PLnUp1RmFwbH8F7ngH-tA"
+const APIKEY = import.meta.env.VITE_MAPBOX
 const searchQuery = ref("");
 const queryTimeout = ref(null);
 const mapboxResults = ref(null);
