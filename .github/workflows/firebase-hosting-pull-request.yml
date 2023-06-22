@@ -15,3 +15,6 @@ jobs:
           repoToken: '${{ secrets.GITHUB_TOKEN }}'
           firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_WEATHER_APP_25AC4 }}'
           projectId: weather-app-25ac4
+env:
+  VITE_APP_API_KEY: "${{ secrets.WEATHER_API }}"
+  VITE_MAPBOX: "${{ secrets.GEOCODER_API }}"
