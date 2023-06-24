@@ -12,7 +12,7 @@
       <h1 class="text-4xl mb-2">{{ route.params.city }}</h1>
       <p class="text-sm mb-12">
         {{
-          new Date(currentWeather.dt).toLocaleDateString(
+          new Date(currentWeather.dt *1000).toLocaleDateString(
             "en-us",
             {
               weekday: "short",
